@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Travel - Kolors Chen</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav id = "desktop-nav">
+            <a class = "logo" href="index.html">Kolors Chen</a>
+            <div class = "nav-links">
+                <ul class = "nav-links">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id = "hamburger-nav">
+            <a class = "logo" href="index.html">Kolors Chen</a>
+            <div class = "hamburger-menu">
+                <div class = "hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+                    <li><a href="travel.html" onclick="toggleMenu()">Travel</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <div class="slider" style="--quantity: 8">
+                <div class="item" style="--position: 1"><img src="travels/tromso1.JPG" alt="Tromso" loading="lazy"></div>
+                <div class="item" style="--position: 2"><img src="travels/lisboa1.JPG" alt="Lisbon" loading="lazy"></div>
+                <div class="item" style="--position: 3"><img src="travels/morocco1.JPG" alt="Morocco" loading="lazy"></div>
+                <div class="item" style="--position: 4"><img src="travels/budapest1.JPG" alt="Budapest" loading="lazy"></div>
+                <div class="item" style="--position: 5"><img src="travels/venice1.JPG" alt="Venice" loading="lazy"></div>
+                <div class="item" style="--position: 6"><img src="travels/copenhagen1.JPG" alt="Copenhagen" loading="lazy"></div>
+                <div class="item" style="--position: 7"><img src="travels/praha1.JPG" alt="Prague" loading="lazy"></div>
+                <div class="item" style="--position: 8"><img src="travels/luzern1.JPG" alt="Luzern" loading="lazy"></div>
+            </div>
+            <div class="content">
+                <h1 data-content="Travels">Travels</h1>
+                <div class="author">
+                    <h2>2025</h2>
+                    <p><b>Aug to Dec</b></p>
+                    <p>Abroad</p>
+                </div>
+                <div class="model"></div>
+            </div>
+        </div>
+        
+                <!-- Gallery section: horizontal photos -->
+                <section id="photo-gallery">
+                    <h2 class="title" style="text-align:center; margin-top:2rem;">Gallery</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item"><img src="travels/horizontal1.jpg" alt="Horizontal 1" loading="lazy"></div>
+                        <div class="gallery-item"><img src="travels/horizontal2.jpg" alt="Horizontal 2" loading="lazy"></div>
+                        <div class="gallery-item"><img src="travels/horizontal3.jpg" alt="Horizontal 3" loading="lazy"></div>
+                        <div class="gallery-item"><img src="travels/horizontal4.jpg" alt="Horizontal 4" loading="lazy"></div>
+                    </div>
+                </section>
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
+
